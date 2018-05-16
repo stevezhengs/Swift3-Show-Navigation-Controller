@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE000DB20A99C1300EF1681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE000DA20A99C1300EF1681 /* AppDelegate.swift */; };
+		EEE000DD20A99C1300EF1681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE000DC20A99C1300EF1681 /* ViewController.swift */; };
+		EEE000E020A99C1300EF1681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE000DE20A99C1300EF1681 /* Main.storyboard */; };
+		EEE000E220A99C1300EF1681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE000E120A99C1300EF1681 /* Assets.xcassets */; };
+		EEE000E520A99C1300EF1681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE000E320A99C1300EF1681 /* LaunchScreen.storyboard */; };
+		EEE000F020A99C1300EF1681 /* _3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE000EF20A99C1300EF1681 /* _3Tests.swift */; };
+		EEE000FB20A99C1300EF1681 /* _3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE000FA20A99C1300EF1681 /* _3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE000EC20A99C1300EF1681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE000CF20A99C1300EF1681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE000D620A99C1300EF1681;
+			remoteInfo = 23;
+		};
+		EEE000F720A99C1300EF1681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE000CF20A99C1300EF1681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE000D620A99C1300EF1681;
+			remoteInfo = 23;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEE000D720A99C1300EF1681 /* 23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 23.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE000DA20A99C1300EF1681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE000DC20A99C1300EF1681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEE000DF20A99C1300EF1681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE000E120A99C1300EF1681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE000E420A99C1300EF1681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE000E620A99C1300EF1681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE000EB20A99C1300EF1681 /* 23Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 23Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE000EF20A99C1300EF1681 /* _3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3Tests.swift; sourceTree = "<group>"; };
+		EEE000F120A99C1300EF1681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE000F620A99C1300EF1681 /* 23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE000FA20A99C1300EF1681 /* _3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3UITests.swift; sourceTree = "<group>"; };
+		EEE000FC20A99C1300EF1681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE000D420A99C1300EF1681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE000E820A99C1300EF1681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE000F320A99C1300EF1681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE000CE20A99C1300EF1681 = {
+			isa = PBXGroup;
+			children = (
+				EEE000D920A99C1300EF1681 /* 23 */,
+				EEE000EE20A99C1300EF1681 /* 23Tests */,
+				EEE000F920A99C1300EF1681 /* 23UITests */,
+				EEE000D820A99C1300EF1681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE000D820A99C1300EF1681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE000D720A99C1300EF1681 /* 23.app */,
+				EEE000EB20A99C1300EF1681 /* 23Tests.xctest */,
+				EEE000F620A99C1300EF1681 /* 23UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE000D920A99C1300EF1681 /* 23 */ = {
+			isa = PBXGroup;
+			children = (
+				EEE000DA20A99C1300EF1681 /* AppDelegate.swift */,
+				EEE000DC20A99C1300EF1681 /* ViewController.swift */,
+				EEE000DE20A99C1300EF1681 /* Main.storyboard */,
+				EEE000E120A99C1300EF1681 /* Assets.xcassets */,
+				EEE000E320A99C1300EF1681 /* LaunchScreen.storyboard */,
+				EEE000E620A99C1300EF1681 /* Info.plist */,
+			);
+			path = 23;
+			sourceTree = "<group>";
+		};
+		EEE000EE20A99C1300EF1681 /* 23Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE000EF20A99C1300EF1681 /* _3Tests.swift */,
+				EEE000F120A99C1300EF1681 /* Info.plist */,
+			);
+			path = 23Tests;
+			sourceTree = "<group>";
+		};
+		EEE000F920A99C1300EF1681 /* 23UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE000FA20A99C1300EF1681 /* _3UITests.swift */,
+				EEE000FC20A99C1300EF1681 /* Info.plist */,
+			);
+			path = 23UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE000D620A99C1300EF1681 /* 23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE000FF20A99C1300EF1681 /* Build configuration list for PBXNativeTarget "23" */;
+			buildPhases = (
+				EEE000D320A99C1300EF1681 /* Sources */,
+				EEE000D420A99C1300EF1681 /* Frameworks */,
+				EEE000D520A99C1300EF1681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 23;
+			productName = 23;
+			productReference = EEE000D720A99C1300EF1681 /* 23.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE000EA20A99C1300EF1681 /* 23Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE0010220A99C1300EF1681 /* Build configuration list for PBXNativeTarget "23Tests" */;
+			buildPhases = (
+				EEE000E720A99C1300EF1681 /* Sources */,
+				EEE000E820A99C1300EF1681 /* Frameworks */,
+				EEE000E920A99C1300EF1681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE000ED20A99C1300EF1681 /* PBXTargetDependency */,
+			);
+			name = 23Tests;
+			productName = 23Tests;
+			productReference = EEE000EB20A99C1300EF1681 /* 23Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE000F520A99C1300EF1681 /* 23UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE0010520A99C1300EF1681 /* Build configuration list for PBXNativeTarget "23UITests" */;
+			buildPhases = (
+				EEE000F220A99C1300EF1681 /* Sources */,
+				EEE000F320A99C1300EF1681 /* Frameworks */,
+				EEE000F420A99C1300EF1681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE000F820A99C1300EF1681 /* PBXTargetDependency */,
+			);
+			name = 23UITests;
+			productName = 23UITests;
+			productReference = EEE000F620A99C1300EF1681 /* 23UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE000CF20A99C1300EF1681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "503-40";
+				TargetAttributes = {
+					EEE000D620A99C1300EF1681 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EEE000EA20A99C1300EF1681 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE000D620A99C1300EF1681;
+					};
+					EEE000F520A99C1300EF1681 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE000D620A99C1300EF1681;
+					};
+				};
+			};
+			buildConfigurationList = EEE000D220A99C1300EF1681 /* Build configuration list for PBXProject "23" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE000CE20A99C1300EF1681;
+			productRefGroup = EEE000D820A99C1300EF1681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE000D620A99C1300EF1681 /* 23 */,
+				EEE000EA20A99C1300EF1681 /* 23Tests */,
+				EEE000F520A99C1300EF1681 /* 23UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE000D520A99C1300EF1681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE000E520A99C1300EF1681 /* LaunchScreen.storyboard in Resources */,
+				EEE000E220A99C1300EF1681 /* Assets.xcassets in Resources */,
+				EEE000E020A99C1300EF1681 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE000E920A99C1300EF1681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE000F420A99C1300EF1681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE000D320A99C1300EF1681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE000DD20A99C1300EF1681 /* ViewController.swift in Sources */,
+				EEE000DB20A99C1300EF1681 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE000E720A99C1300EF1681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE000F020A99C1300EF1681 /* _3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE000F220A99C1300EF1681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE000FB20A99C1300EF1681 /* _3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE000ED20A99C1300EF1681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE000D620A99C1300EF1681 /* 23 */;
+			targetProxy = EEE000EC20A99C1300EF1681 /* PBXContainerItemProxy */;
+		};
+		EEE000F820A99C1300EF1681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE000D620A99C1300EF1681 /* 23 */;
+			targetProxy = EEE000F720A99C1300EF1681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE000DE20A99C1300EF1681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE000DF20A99C1300EF1681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE000E320A99C1300EF1681 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE000E420A99C1300EF1681 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE000FD20A99C1300EF1681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE000FE20A99C1300EF1681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE0010020A99C1300EF1681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 23/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-6240446.-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEE0010120A99C1300EF1681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 23/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-6240446.-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EEE0010320A99C1300EF1681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 23Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-6240446.-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/23.app/23";
+			};
+			name = Debug;
+		};
+		EEE0010420A99C1300EF1681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 23Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-6240446.-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/23.app/23";
+			};
+			name = Release;
+		};
+		EEE0010620A99C1300EF1681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = 23UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-6240446.-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 23;
+			};
+			name = Debug;
+		};
+		EEE0010720A99C1300EF1681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = 23UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-6240446.-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 23;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE000D220A99C1300EF1681 /* Build configuration list for PBXProject "23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE000FD20A99C1300EF1681 /* Debug */,
+				EEE000FE20A99C1300EF1681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE000FF20A99C1300EF1681 /* Build configuration list for PBXNativeTarget "23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE0010020A99C1300EF1681 /* Debug */,
+				EEE0010120A99C1300EF1681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE0010220A99C1300EF1681 /* Build configuration list for PBXNativeTarget "23Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE0010320A99C1300EF1681 /* Debug */,
+				EEE0010420A99C1300EF1681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE0010520A99C1300EF1681 /* Build configuration list for PBXNativeTarget "23UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE0010620A99C1300EF1681 /* Debug */,
+				EEE0010720A99C1300EF1681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE000CF20A99C1300EF1681 /* Project object */;
+}
